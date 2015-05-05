@@ -19,3 +19,9 @@ class Animal: NSObject {
         return "Animal name: " + self.name
     }
 }
+    class Cats: Animal{
+        
+        override func prettyAnimalName() -> String {
+            return "Animal name: " + super.name
+        }
+}
